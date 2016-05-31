@@ -1,0 +1,58 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffcc00"
+    android:descendantFocusability="beforeDescendants"
+    android:focusableInTouchMode="true"
+>
+    <LinearLayout
+        android:layout_margin="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <!--
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="I am here"
+                    android:textSize="40dp" />
+        -->
+        <EditText
+            android:id="@+id/number"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_margin="10dp"
+            android:background="#191817"
+            android:hint="NUMBER"
+            android:textColor="#21ff19"
+            android:textColorHint="#00aaee"
+            android:textSize="30dp" />
+        <EditText
+            android:id="@+id/date"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_margin="10dp"
+            android:background="#191817"
+            android:hint="DATE"
+            android:textColor="#21ff19"
+            android:textColorHint="#00aaee"
+            android:textSize="30dp" />
+        <EditText
+            android:id="@+id/time"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_margin="10dp"
+            android:background="#191817"
+            android:hint="TIME"
+            android:textColor="#21ff19"
+            android:textColorHint="#00aaee"
+            android:textSize="30dp" />
+
+        <Button
+            android:id="@+id/b1"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="Send" />
+    </LinearLayout>
+</RelativeLayout>

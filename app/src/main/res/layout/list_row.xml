@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:descendantFocusability="blocksDescendants"
+    android:background="#9d74aa"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/num"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:text="Textview 1"
+        android:textSize="28dp"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/dat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/num"
+        android:layout_marginTop="11dp"
+        android:text="Textview 2"
+        android:textSize="24dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/dat"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="72dp"
+        android:text="Textview 3"
+        android:textColor="#4411aa"
+        android:textSize="20dp" />
+
+    <ImageView
+        android:src="@drawable/delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/delete"
+        android:padding="10dp"
+        android:layout_alignTop="@+id/num"
+        android:layout_toEndOf="@+id/num" />
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/num"
+        android:layout_alignEnd="@+id/tim"
+        android:backgroundTint="#0b0a0a"
+        android:checked="true" />
+
+    <TextView
+        android:id="@+id/ID"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:singleLine="true"
+        android:text="fffffffffd"
+        android:textColor="#040404"
+        android:visibility="gone" />
+    />
+    <!--
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Large Text"
+            android:id="@+id/textView"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignEnd="@+id/textView2" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Large Text"
+            android:id="@+id/textView2"
+            android:layout_marginTop="44dp"
+            android:layout_below="@+id/textView"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true" />
+
+     android:descendantFocusability="blocksDescendants"
+    -->
+
+</RelativeLayout>
